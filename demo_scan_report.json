@@ -1,0 +1,45 @@
+{
+    "scan_info": {
+        "target": "www.hackthissite.org",
+        "scan_time": "2025-10-28T20:18:02.844103",
+        "port_range": "1-1024",
+        "open_ports_found": 2
+    },
+    "open_ports": {
+        "80": {
+            "port": 80,
+            "state": "open",
+            "service": "http",
+            "banner": "HTTP/1.1 301 Moved Permanently\r\nContent-length: 0\r\nLocation: https:///\r\nConnection: close",
+            "ssl_info": null
+        },
+        "443": {
+            "port": 443,
+            "state": "open",
+            "service": "https",
+            "banner": "",
+            "ssl_info": {
+                "version": "TLSv1.2",
+                "cipher": [
+                    "ECDHE-RSA-AES256-GCM-SHA384",
+                    "TLSv1.2",
+                    256
+                ]
+            }
+        }
+    },
+    "vulnerabilities": [
+        {
+            "service": "HTTP",
+            "risk": "MEDIUM",
+            "issue": "Unencrypted web traffic",
+            "port": 80
+        }
+    ],
+    "risk_summary": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+    }
+}
