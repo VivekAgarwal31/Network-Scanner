@@ -6,7 +6,7 @@
 
 A robust, menu-driven terminal network scanner designed for system administrators, cybersecurity learners, and penetration testers. Features automatic local IP detection, threaded scanning, vulnerability insights, and a clean UI—all in an interactive Python package.  
 
-**Author:** Ujjwal Singh
+**Author:** Vivek Agarwal
 
 ---
 
