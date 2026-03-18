@@ -131,10 +131,10 @@ A robust, menu-driven terminal network scanner designed for system administrator
 
 ## 👤 Author
 
-- **Ujjwal Singh**
-- email - ujjwalshield@gmail.com
+- **Vivek Agarwal**
+- email - vivekagrawal6336@gmail.com
 - Cybersecurity student  
-- https://tryhackme.com/p/UJz
+- https://tryhackme.com/p/LuciferVivek31
 
 ---
 
